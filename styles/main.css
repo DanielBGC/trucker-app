@@ -1,17 +1,21 @@
+:root {
+    --initial-width: 360px;
+  }
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 .container {
-    max-width: 360px;
+    max-width:  var(--initial-width);
     height: 640px;
+
+    background-color: #C4C4C4;
     
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
-    background: url("/assets/Vector.png") no-repeat;
+    justify-content: space-between;
+
     border: 1px solid black;
     border-radius: 6px;
 
@@ -19,60 +23,72 @@ body {
 }
 
 .header {
-    margin-top: 100px;
+    display: flex;
+    background-color: #EEF7FE;
+    padding: 20px;
+
+    justify-content: space-around;
+    align-items: center;
+
+    border-bottom-right-radius: 70px;
 }
 
 .header h1 {
     font-style: italic;
+    font-weight: 700;  
 }
 
-.form .input-group {
-    display: flex;
-    flex-direction: column;
-    margin-top: 30px;
+.header img {
+    width: 64px;
+    height: 76px;
+    object-fit: fill;
+    margin-top: 10px;
+
 }
 
-.input-group input {
-    width: 290px;
-    height: 30px;
+nav ul {
     padding-left: 20px;
-    margin-bottom: 10px;
-    border-radius: 6px;
 }
 
-.form .button-group {
+nav ul li {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+nav a {
+    /* text-decoration: none; */
+    color: black;
+    font-weight: 700;    
+}
+
+.logout {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #C4C4C4;
 
-.button-group input {
-    font-family: 'Roboto';
-    font-weight: 700;
-    font-style: italic;
-}
-
-.button-group :hover {
-    cursor: pointer;
-}
-
-.button-group :nth-child(1) {
-    background-color: #567DF4;
-    color: white;
-    height: 30px;
     outline: none;
-    border-radius: 6px;
-
-    
-}
-
-.button-group :nth-child(2) { 
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 50px;
-
     border: none;
 }
 
+.logout :hover {
+    cursor: pointer;
+}
+
+.logout img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+footer {
+    font-size: 9pt;
+    font-weight: 300;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    height: 10%;
+
+    padding: 20px;
+}
