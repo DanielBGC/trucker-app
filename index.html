@@ -4,40 +4,50 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="assets/logo-removebg.png" type="image/x-icon">
+
+
+     <!-- Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+     
+    <link rel="stylesheet" href="../styles/cadastro-login.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="styles/main.css">
+
     <title>Trucker App</title>
 </head>
 <body>
     <div class="container">
+        <img class="background"  src="../assets/Vector.png" alt="">
         <header class="header">
-            <h1>Trucker <br> App</h1>
-            <img src="assets/logo-removebg.png" alt="Logo">
+            <img src="../assets/logo-removebg.png" alt="Logo">
+            <h1>Trucker <br/> App</h1>
         </header>
 
-        <nav>
-            <ul>
-                <li><a href="pages/login-page.html">Perfil</a></li>
-                <li><a href="pages/create-account.html">Criar conta</a></li>
-                <li><a href="#">Postos de gasolina</a></li>
-                <li><a href="#">Estabelecimentos</a></li>
-            </ul>
-        </nav>
+        <div class="form">
+            <form>
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="E-mail">
+                </div>
+                <div class="input-group">
+                    <input class="form-control" type="text" placeholder="Senha">
+                </div>
 
-        <footer>
-            <button class="logout"> 
-                <img src="assets/logout-button.png" alt="">
-                <span>
-                    Logout
-                </span>
-            </button>
+                <div class="btn-group" role="group">
+                    <a href="pages/menu-inicial.html">
+                        <button type="button" class="btn btn-primary">Sign in</button>
+                    </a>
+                </div>
+                    
+                <div class="btn-group" role="group">
+                    <a href="pages/create-account.html">
+                        <button type="button" class="btn btn-primary">Criar conta</button>
+                    </a>  
+                </div>
 
-            <span>Version 2.0.1</span>
-        </footer>
+            </form>
+        </div>
     </div>
-    
-    <script src="scripts/main.js"></script>
 </body>
 </html>

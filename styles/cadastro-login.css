@@ -1,0 +1,73 @@
+:root {
+    --initial-width: 360px;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width:  var(--initial-width);
+    height: 640px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* background: url("assets/Vector.png") no-repeat; */
+    border: 1px solid black;
+    border-radius: 6px;
+
+    position: relative;
+
+    margin-top: 10px;
+}
+
+.background {
+    /* max-width: var(--initial-width); */
+    position: absolute;
+    top: 0;
+
+    max-width: 100%;
+}
+
+.header {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 2rem;
+}
+
+.header img {
+    max-width: 40%;
+}
+
+
+.header h1 {
+    font-style: italic;
+    font-weight: 700;
+    
+}
+
+.input-group input {
+    width: 290px;
+    height: 30px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+.btn-group,
+.btn-group button,
+.btn-group a  {
+    width: 100%;
+}
+
+.btn-group {
+    margin-top: 20px;
+}
+
+
