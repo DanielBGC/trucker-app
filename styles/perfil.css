@@ -26,6 +26,14 @@ header button {
     background-color: white;
 }
 
+header button a {
+    color: black;
+}
+
+header button a:hover {
+    color: black;
+}
+
 .card-perfil {
     background-color: #22215B;
 
