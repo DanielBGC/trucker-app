@@ -1,0 +1,143 @@
+.container {
+    border: 1px solid black;
+    max-width: 360px;
+    margin-top: 10px;
+
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 2rem;
+}
+
+header h1 {
+    font-size: 16pt;
+    font-weight: 700;
+}
+
+header button {
+    border: none;
+    background-color: white;
+}
+
+.card-perfil {
+    background-color: #22215B;
+
+    color: white;
+    text-align: center;
+
+    padding: 2rem;
+    border-radius: 20px;
+    margin-top: 2rem;
+    height: 170px;
+
+    /* max-width: 300px; */
+    position: relative;
+
+}
+
+.card-perfil h2 {
+    font-size: 16pt;
+}
+
+.card-perfil .proUser {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.favoritos {
+    margin-top: 2rem;
+}
+
+.favoritos h2 {
+    font-size: 16pt;
+}
+
+.header-fav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-fav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-fav ul li {
+    list-style: none;
+}
+
+.main-fav .card .img-container :first-child  {
+    width: 32px;
+    border: none;
+    background: none;
+}
+
+.main-fav .card .img-container :nth-child(2) {
+    height: 15px;
+    width: 3px;
+} 
+
+.main-fav .card .img-container :nth-child(2):hover {
+    cursor: pointer;
+}
+
+.main-fav {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-fav :nth-child(1),
+.main-fav :nth-child(1) .img-container,
+.main-fav :nth-child(1) h4 {
+    background-color: #EEF7FE;
+}
+
+
+.main-fav :nth-child(2),
+.main-fav :nth-child(2) .img-container,
+.main-fav :nth-child(2) h4 {
+    background-color: #FFFBEC;
+}
+
+.main-fav :nth-child(3),
+.main-fav :nth-child(3) .img-container,
+.main-fav :nth-child(3) h4 {
+    background-color: #FEEEEE;
+}
+
+.main-fav :nth-child(4),
+.main-fav :nth-child(4) .img-container,
+.main-fav :nth-child(4) h4 {
+    background-color: #F0FFFF;
+}
+
+.card {
+    max-width: 150px;
+    height: 100px;
+    padding: 15px 15px 0px 15px; 
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    
+}
+
+.card .img-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.card h4 {
+    font-size: 10pt;
+    margin-top: 1rem;
+    margin-bottom: 10px;
+}
