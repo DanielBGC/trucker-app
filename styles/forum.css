@@ -2,7 +2,7 @@
     border: 1px solid black;
     max-width: 360px;
     margin-top: 10px;
-    max-height: 90vh;
+    height: 95vh;
     overflow-y: scroll;
 }
 
