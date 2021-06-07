@@ -5,6 +5,8 @@
     
     display: flex;
     flex-direction: column;
+    position: relative;
+
 }
 
 header {
@@ -58,4 +60,44 @@ ul li {
 
 .info button {
     margin-bottom: 1rem;
+}
+
+#modal {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: auto;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    display: none;
+
+    box-shadow: 0px 20px 20px black;
+}
+
+#modal header {
+    height: 0px;
+    margin-bottom: 2rem;
+}
+
+#modal header button {
+    border: none;
+}
+
+#modal form .input-group {
+    margin-bottom: 1rem;
+}
+
+#modal form .input-group label {
+    font-weight: 700;
+}
+
+#modal form input {
+    width: 100%;
+}
+
+#modal form button {
+    margin-top: 2rem;
 }

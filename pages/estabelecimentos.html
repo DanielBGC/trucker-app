@@ -34,7 +34,7 @@
           </a>
         </button>
         <h1>Estabelecimentos próximos</h1>
-    </header>
+      </header>
     
       <div class="info">  
           <ul class="estabelecimentos">
@@ -52,11 +52,50 @@
               </li>
             </ul>
 
-          <button class="btn btn-primary" onclick="">
+          <button class="btn btn-primary" onclick="openModal()">
             Cadastrar 
           </button>
       </div>
+      <div id="modal">
+        <header>
+          <button onclick="closeModal()"> 
+              <i class="fas fa-angle-left"></i> 
+          </button>
+        </header>
+        <form class="row">
+          <div class="input-group row">
+            <label for="type">Tipo</label>
+            <select class="form-control" name="type" id="">
+              <option value="0">Selecione uma opção</option>
+              <option value="1">Posto de gasolina</option>
+              <option value="2">Restaurante</option>
+              <option value="3">Borracharia</option>
+              <option value="4">Oficina</option>
+            </select>
+          </div>
+          <div class="input-group row">
+            <label for="name">Nome</label>
+            <input class="form-control" type="text" placeholder="Nome" name="name">
+          </div>
+          <div class="input-group row">
+              <label for="UF">UF</label>
+              <input class="form-control" type="text" placeholder="Estado" name="UF">
+          </div>
+          <div class="input-group row">
+            <label for="city">Cidade</label>
+            <input class="form-control" type="text" placeholder="Cidade" name="city">
+          </div>
+          <div class="input-group row">
+            <label for="adress">Endereço</label>
+            <input class="form-control" type="text" placeholder="Endereço" name="adress">
+          </div>
+          <button class="btn btn-primary col" onclick="cadastrarEstabelecimento()">
+            Cadastrar 
+          </button>
+        </form>
+      </div>
     </div>
+
   
     
    <!-- JavaScript Bundle with Popper -->
