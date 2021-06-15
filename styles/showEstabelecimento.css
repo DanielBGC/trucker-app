@@ -39,10 +39,16 @@ header button a:hover {
     margin-bottom: 1rem;
 }
 
+#carouselExampleControls img,
 .img-container img {
     border-top-right-radius: 70px;
     border-bottom-left-radius: 70px;
 }
+
+#carouselExampleControls a span:nth-child(1) {
+    background-color: black;
+}
+
 
 .info {
     margin: 0px 1rem;

@@ -4,6 +4,8 @@
     margin-top: 10px;
     height: 95vh;
     overflow-y: scroll;
+
+    position: relative;
 }
 
 header {
@@ -12,6 +14,7 @@ header {
     justify-content: space-between;
 
     margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
 header h1 {
@@ -66,4 +69,51 @@ table tbody tr:hover {
 
 table tr > * {
     border: black 1px 1px solid;
+}
+
+button.btn-danger {
+    display: none;
+}
+
+
+#modal {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: auto;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    color: black;
+
+    display: none;
+
+    box-shadow: 0px 20px 20px black;
+}
+
+#modal header {
+    height: 0px;
+    margin-bottom: 2rem;
+}
+
+#modal header button {
+    border: none;
+}
+
+
+#modal form .input-group {
+    margin-bottom: 1rem;
+}
+
+#modal form .input-group label {
+    font-weight: 700;
+}
+
+#modal form input {
+    width: 100%;
+}
+
+#modal form button {
+    margin-top: 2rem;
 }

@@ -16,6 +16,57 @@ favButton.addEventListener("click", function() {
   }
 })
 
+const prevCarouselButton = document.querySelector(".carousel-control-prev")
+prevCarouselButton.addEventListener("click", function() {
+  changeCarouselImage("prev")
+})
+
+const nextCarouselButton = document.querySelector(".carousel-control-next")
+nextCarouselButton.addEventListener("click", function() {
+  changeCarouselImage("next")
+})
+
+function changeCarouselImage(action) {
+  const carouselDivs = document.querySelectorAll(".carousel-item")
+  const currentCarouselDiv = document.querySelector(".carousel-item.active")
+  let currentPosition = 0;
+  const qtdImages = carouselDivs.length
+
+  for(i=0; i<qtdImages; i++) {
+    if(carouselDivs[i] == currentCarouselDiv) {
+      currentPosition = i;
+    }
+  }
+
+  if(action == "next") {
+    carouselDivs[currentPosition].classList.remove("active")
+    if(currentPosition == qtdImages - 1) {
+      currentPosition = 0;
+    }
+    else {
+      currentPosition++;
+    }
+    carouselDivs[currentPosition].classList.add("active")
+  }
+
+  if(action == "prev") {
+    carouselDivs[currentPosition].classList.remove("active")
+    if(currentPosition == 0) {
+      currentPosition = qtdImages - 1;
+    }
+    else {
+      currentPosition--;
+    }
+    carouselDivs[currentPosition].classList.add("active")
+  }
+
+}
+
+
+
+
+
+
 function searchLocation() {
   const infoContainer = document.querySelector(".info")
   const headerLink = document.querySelector("header a")
