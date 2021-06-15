@@ -12,7 +12,7 @@ function navigateTo(item) {
 
     switch(type) {
         case "1": {
-            window.location.href = "showEstabelecimento.html"
+            window.location.href = "display/showEstabelecimento.html"
             break;
         }
     }
