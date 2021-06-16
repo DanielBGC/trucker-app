@@ -2,8 +2,10 @@
     border: 1px solid black;
     max-width: 360px;
     margin-top: 10px;
-    height: 95vh;
-    overflow-y: scroll;
+    min-height: 95vh;
+
+    /* overflow-y: scroll;
+    overflow-x: hidden; */
 
     position: relative;
 }

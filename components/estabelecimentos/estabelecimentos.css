@@ -2,6 +2,8 @@
     border: 1px solid black;
     max-width: 360px;
     margin-top: 10px;
+
+    min-height: 95vh;
     
     display: flex;
     flex-direction: column;
@@ -66,7 +68,7 @@ ul li {
     position: absolute;
     left: 0;
     right: 0;
-    height: auto;
+    min-height: 95vh;
     width: auto;
     padding: 2rem;
     background-color: rgb(255, 255, 255);
@@ -74,7 +76,7 @@ ul li {
 
     display: none;
 
-    box-shadow: 0px 20px 20px black;
+    box-shadow: 0px 4px 20px black;
 }
 
 #modal header {

@@ -1,6 +1,10 @@
+const currentFooterIcon = document.querySelector("footer .icon.forum")
+currentFooterIcon.classList.add("active")
+
 const headerLink = document.querySelector("header a")
 const tableContainer = document.querySelector(".table-container")
 const table = document.querySelector(".table-container table")
+
 
 window.addEventListener("load", refreshTopics)
 

@@ -8,16 +8,17 @@ body {
 
 .container {
     max-width:  var(--initial-width);
-    height: 640px;
+    min-height: 95vh;
 
-    background-color: #C4C4C4;
+    /* background-color: #ffffff; */
+    background-color: #ffffff;
     
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 
     border: 1px solid black;
-    border-radius: 6px;
+    /* border-radius: 6px; */
 
     position: relative;
 
@@ -44,10 +45,29 @@ body {
     font-weight: 700;  
 }
 
+.title {
+    margin-bottom: 4rem;
+    padding: 0;
+    text-align: center;
+    color: black;
+}
+
+.title svg {
+    width: 30px;
+}
+
+nav {
+    margin-top: 2rem;
+}
+
 nav ul li {
     list-style-type: none;
     /* margin-top: 20px; */
-   
+    display: flex;
+}
+
+li svg {
+    width: 30px;
 }
 
 nav ul li a {
@@ -72,22 +92,4 @@ nav ul li a {
 .logout img {
     width: 20px;
     margin-right: 10px;
-}
-
-
-footer {
-    font-size: 9pt;
-    font-weight: 300;
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    
-    height: 10%;
-    
-    padding: 20px;
-}
-
-footer a {
-    text-decoration: none;
 }

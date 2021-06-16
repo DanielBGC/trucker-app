@@ -1,3 +1,7 @@
+const currentFooterIcon = document.querySelector("footer .icon.estabelecimentos")
+currentFooterIcon.classList.add("active")
+
+
 const items = document.querySelectorAll(".estabelecimentos li")
 
 items.forEach(item => {

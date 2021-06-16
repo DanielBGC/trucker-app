@@ -1,0 +1,26 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    /* margin-bottom: 10px; */
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+footer .icon {
+    width: 30px;
+    margin: 0 1.5rem;
+}
+
+footer .icon:hover {
+    cursor: pointer;
+}
+
+footer .icon.active {
+    color: rgb(0, 235, 39);
+}
