@@ -28,18 +28,43 @@
         <div class="form">
             <form>
                 <div class="input-group">
-                    <input class="form-control" type="text" placeholder="E-mail">
+                    <input class="form-control" type="text" id="email" placeholder="E-mail">
+                </div>
+                <div class="alert emailValidationAlert">
+                    Email inválido
                 </div>
                 <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Senha">
+                    <input class="form-control" id="senha" type="text" placeholder="Senha">
                 </div>
+                <div class="alert espacoValidationAlert">
+                    Não é permitido inserir <b>Espaço</b> na senha
+                </div>
+                <div class="alert minusculaValidationAlert">
+                    A senha deve conter no mínimo uma letra <b>Minúscula</b>
+                </div>
+                <div class="alert maiusculaValidationAlert">
+                    A senha deve conter no mínimo uma letra <b>Maiúscula</b>
+                </div>
+                <div class="alert numeroValidationAlert">
+                    A senha deve conter no mínimo um <b>Número</b>
+                </div>
+                <div class="alert especialValidationAlert">
+                    A senha deve conter no mínimo um caracter <b>especial</b>
+                </div>
+                <div class="alert tamanhoValidationAlert">
+                    A senha não pode ser menor que <b>8</b> caracteres
+                </div>
+
                 <div class="input-group">
-                    <input class="form-control" type="text" placeholder="Confirmar senha">
+                    <input class="form-control" id="confirmSenha" type="text" placeholder="Confirmar senha">
+                </div>
+                <div class="alert confirmPassword">
+                    As senhas não conferem
                 </div>
 
                 <div class="btn-group" role="group">
                     <a href="../menu/menu-inicial.html">
-                        <button type="button" class="btn btn-primary">Criar</button>
+                        <button type="button" class="btn btn-success">Cadastrar conta</button>
                     </a>
                 </div>
                     

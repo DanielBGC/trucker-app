@@ -8,7 +8,7 @@ body {
 
 .container {
     max-width:  var(--initial-width);
-    height: 640px;
+    min-height: 95vh;
     
     display: flex;
     flex-direction: column;
@@ -70,4 +70,18 @@ body {
     margin-top: 20px;
 }
 
+div.alert {
+    display: none;
+    margin-bottom: 10px;
+    padding: 5px;
 
+    font-size: 11pt;
+}
+
+div.error {
+    color: red;
+}
+
+div.success {
+    color: green;
+}
