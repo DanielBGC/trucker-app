@@ -21,10 +21,21 @@ header {
     margin-bottom: 2rem;
 }
 
-header h1 {
+.header-title {
+    display: flex;
+    align-items: center;
+}
+
+.header-title svg {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.header-title h1 {
     font-size: 14pt;
     font-weight: 700;
 }
+
 
 header button {
     border: none;
