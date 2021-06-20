@@ -58,6 +58,10 @@ ul li {
     padding: 0;
 }
 
+.estabelecimentos h4 {
+    margin-bottom: 40px;
+}
+
 .estabelecimentos .item {
     background-color: #3879cf31;
     padding: 10px;

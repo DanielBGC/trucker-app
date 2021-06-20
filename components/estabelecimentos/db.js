@@ -46,5 +46,5 @@ export const estabelecimentosArray = [
             "https://www.redegraal.com.br/explorer/unidades/1556807031.jpg"
         ],
         "isFavorite": false
-      }
+    }
   ]
