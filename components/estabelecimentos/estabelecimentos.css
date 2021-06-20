@@ -21,6 +21,15 @@ header {
     margin-bottom: 2rem;
 }
 
+header button a svg {
+    color: black;
+    width: 30px;
+}
+
+header button a svg:hover {
+    color: blue;
+}
+
 .header-title {
     display: flex;
     align-items: center;
@@ -70,7 +79,7 @@ ul li {
 }
 
 .estabelecimentos .item:hover {
-    cursor: pointer;
+    /* cursor: pointer; */
     background-color: #4a82cc67;
 
 }

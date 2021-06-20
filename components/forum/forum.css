@@ -19,6 +19,15 @@ header {
     margin-bottom: 2rem;
 }
 
+header button a svg {
+    color: black;
+    width: 30px;
+}
+
+header button a svg:hover {
+    color: blue;
+}
+
 .header-title {
     display: flex;
     align-items: center;
@@ -66,8 +75,8 @@ header button a:hover {
 table {
     font-size: 10pt;
     text-align: center;
-    width: 30px;
 }
+
 
 table tbody tr {
     vertical-align: middle;

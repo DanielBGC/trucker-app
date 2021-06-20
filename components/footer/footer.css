@@ -19,6 +19,7 @@ footer .icon {
 
 footer .icon:hover {
     cursor: pointer;
+    color: #0d6efd;
 }
 
 footer .icon.active {

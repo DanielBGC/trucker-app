@@ -18,6 +18,15 @@ header {
     margin-top: 2rem;
 }
 
+header button a svg {
+    color: black;
+    width: 30px;
+}
+
+header button a svg:hover {
+    color: blue;
+}
+
 .header-title {
     display: flex;
     align-items: center;
