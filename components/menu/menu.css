@@ -95,11 +95,12 @@ nav ul li a {
     outline: none;
     border: none;
     background-color: #ffffff;
+    color: #0d6efd;
 }
 
 .logoutButton:hover {
     cursor: pointer;
-    color: #0d6efd;
+    color: black;
 }
 
 .logoutButton svg {

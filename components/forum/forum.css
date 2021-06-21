@@ -114,11 +114,20 @@ button.btn-danger {
 
 #modal header {
     height: 0px;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
 }
 
 #modal header button {
     border: none;
+}
+
+#modal header button svg {
+    color: black;
+    width: 30px;
+}
+
+#modal header button svg:hover {
+    color: blue;
 }
 
 

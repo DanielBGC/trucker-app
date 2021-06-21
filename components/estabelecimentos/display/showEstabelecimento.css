@@ -18,6 +18,7 @@ header {
     margin-top: 1rem;
 }
 
+
 header .title {
     font-size: 14pt;
     font-weight: 700;
@@ -34,6 +35,15 @@ header button a {
 
 header button a:hover {
     color: black;
+}
+
+header button a svg {
+    color: black;
+    width: 30px;
+}
+
+header button a svg:hover {
+    color: blue;
 }
 
 .img-container {

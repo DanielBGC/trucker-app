@@ -112,6 +112,15 @@ ul li {
     border: none;
 }
 
+#modal header button svg {
+    color: black;
+    width: 30px;
+}
+
+#modal header button svg:hover {
+    color: blue;
+}
+
 #modal form .input-group {
     margin-bottom: 1rem;
 }
