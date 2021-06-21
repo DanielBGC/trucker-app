@@ -1,5 +1,3 @@
-
-https://danielbgc.github.io/trucker-app/
 <h1 align="center">
    🚚 Trucker App
 </h1>
