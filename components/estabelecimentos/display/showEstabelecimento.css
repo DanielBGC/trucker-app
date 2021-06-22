@@ -1,5 +1,5 @@
 .container {
-    justify-content: space-between;
+    display: block;
 }
 
 header {
@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
 
     margin-top: 1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 
 
