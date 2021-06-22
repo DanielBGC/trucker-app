@@ -1,0 +1,14 @@
+
+.container {
+    background-color: #ffffff;
+    min-height: 100vh;
+    width: auto;
+    max-width: 400px;
+
+    border: 1px solid black;
+    
+    display: flex;
+    flex-direction: column;
+
+    position: relative;
+}

@@ -28,7 +28,7 @@ function validarForm() {
     const especialValidationAlert = document.querySelector(".alert.especialValidationAlert")
     const tamanhoValidationAlert = document.querySelector(".alert.tamanhoValidationAlert")
     
-    console.log(senhaInput.value, confirmSenhaInput.value)
+    // console.log(senhaInput.value, confirmSenhaInput.value)
 
 
     if(emailValidation.test(emailInput.value) == false && emailInput.value != "") {

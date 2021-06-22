@@ -1,13 +1,5 @@
 .container {
-    border: 1px solid black;
-    max-width: 360px;
-    margin-top: 10px;
-    
-    display: flex;
-    flex-direction: column;
     justify-content: space-between;
-
-    min-height: 95vh;
 }
 
 header {
@@ -16,6 +8,7 @@ header {
     justify-content: space-between;
 
     margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 
@@ -117,7 +110,7 @@ header button a svg:hover {
 }
 
 .info-footer button {
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: flex;
     justify-content: space-between;
     width: 100%;

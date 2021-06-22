@@ -7,24 +7,8 @@ body {
 }
 
 .container {
-    max-width:  var(--initial-width);
-    min-height: 95vh;
-
-    /* background-color: #ffffff; */
-    background-color: #ffffff;
-    
-    display: flex;
-    flex-direction: column;
     /* justify-content: space-between; */
-
-    border: 1px solid black;
-    /* border-radius: 6px; */
-
-    position: relative;
-
     padding: 0;
-
-    margin-top: 10px;
 }
 
 .header {
