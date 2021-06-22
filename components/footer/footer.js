@@ -7,9 +7,12 @@ iconsFooter.forEach(icon => {
 
 const currentHostName = window.location.hostname
 
+const url = window.location.pathname.split("/")
+console.log(url)
 function changeCurrentPage(action) {
   console.log(action)
   let currentIcon;
+
 
   if(action == "home") {
     window.location.href = "../menu/menu-inicial.html"

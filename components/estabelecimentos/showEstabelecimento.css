@@ -120,12 +120,29 @@ header button a svg:hover {
     border-color: white;
 }
 
-#map { 
-    height: 50vh; 
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1rem;
+    margin-bottom: 2rem;
 }
 
+header button a svg {
+    color: black;
+    width: 30px;
+}
+
+header button a svg:hover {
+    color: blue;
+}
+
+
 #map {
-    width: 100%;
-    height: 90vh;
+    max-height: 80%;
+    height: 100%;
+
     display: none;
 }

@@ -1,4 +1,7 @@
-import {estabelecimentosArray} from "../db.js"
+import {estabelecimentosArray} from "./db.js"
+
+const currentFooterIcon = document.querySelector("footer .icon.estabelecimentos")
+currentFooterIcon.classList.add("active")
 
 var currentPositionEstabalecimento = 0;
 var currentEstabelecimento = estabelecimentosArray[currentPositionEstabalecimento];
@@ -173,6 +176,7 @@ function setDistanceBetweenUserAndEstabelecimento() {
 
 function searchLocation() {
   const infoContainer = document.querySelector(".info")
+  const footerContainer = document.querySelector("footer")
   const headerLink = document.querySelector("header a")
   let headerTitle = document.querySelector("header .title")
 
@@ -188,6 +192,7 @@ function searchLocation() {
   headerTitle.style.maxWidth = "70%"
   
   infoContainer.style.display = "none"
+  footerContainer.style.display = "none"
   
   const currentLatidude = currentEstabelecimento.coordenadas.latitude;
   const currentLongitude = currentEstabelecimento.coordenadas.longitude;

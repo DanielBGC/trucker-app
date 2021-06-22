@@ -65,7 +65,7 @@ function setQuantidadePorTipo(item) {
 }
 
 function showEstabelecimentos() {
-    window.location.href = "display/showEstabelecimento.html"
+    window.location.href = "showEstabelecimento.html"
 }
 
 
