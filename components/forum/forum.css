@@ -44,6 +44,12 @@ header button a:hover {
     color: black;
 }
 
+button#openModal svg {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
 .table-container {
     margin-top: 2rem;
     width: 100%;
@@ -133,4 +139,10 @@ button.btn-danger {
 
 #modal form button {
     margin-top: 2rem;
+}
+
+#modal form button svg {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
 }

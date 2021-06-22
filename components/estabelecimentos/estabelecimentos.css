@@ -71,8 +71,23 @@ ul li {
 
 }
 
+.info .buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 0 1rem;
+}
+
 .info button {
     margin-bottom: 1rem;
+    margin-right: 2px;
+}
+
+.info button svg {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 #modal {
@@ -123,4 +138,10 @@ ul li {
 
 #modal form button {
     margin-top: 2rem;
+}
+
+#modal form button svg {
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
