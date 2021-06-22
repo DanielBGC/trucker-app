@@ -17,8 +17,10 @@ body {
     /* max-width: var(--initial-width); */
     position: absolute;
     top: 0;
+    left: 0;
 
-    max-width: 100%;
+    width: 100%;
+    max-height: 400px;
 }
 
 .header {
